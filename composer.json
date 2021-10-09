@@ -37,7 +37,7 @@
     },
     "autoload": {
         "classmap": [
-            "HtmlFormatter.php"
+            "PicoHtmlFormatter.php"
         ]
     },
     "minimum-stability": "beta",
