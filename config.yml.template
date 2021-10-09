@@ -1,0 +1,80 @@
+##
+# Html formatter
+#
+HtmlFormatter:
+    action: beautify
+    self-closing:
+        tag:
+            - area
+            - base
+            - br
+            - col
+            - command
+            - embed
+            - hr
+            - img
+            - input,
+            - keygen
+            - link
+            - menuitem
+            - meta
+            - param
+            - source
+            - track
+            - wbr
+            - animate
+            - stop
+            - path
+            - circle
+            - line
+            - polyline
+            - rect
+            - use
+    inline:
+        tag:
+            - a
+            - abbr
+            - acronym
+            - b
+            - bdo
+            - big
+            - br
+            - button
+            - cite
+            - code
+            - dfn
+            - em
+            - i
+            - img
+            - kbd
+            - label
+            - samp
+            - small
+            - span
+            - strong
+            - sub
+            - sup
+            - tt
+            - var
+    formatted:
+        tag:
+            script:
+                cleanup-empty: true
+                closing-break: false
+                trim: false
+            pre:
+                cleanup-empty: true
+                closing-break: false
+                trim: false
+            textarea:
+                cleanup-empty: true
+                closing-break: false
+                trim: false
+        cleanup-empty: true
+        closing-break: false
+        trim: false
+    attributes:
+        trim: true
+    cdata:
+        trim: true
+        cleanup: true

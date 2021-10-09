@@ -1,0 +1,46 @@
+{
+    "name": "navindex/pico-html-formatter",
+    "type": "pico-plugin",
+    "description": "This is a Pico wrapper for the HTML Formatter library from Navindex.",
+    "keywords": [
+        "pico",
+        "picocms",
+        "picocms-plugin",
+        "html-formatter",
+        "beautify",
+        "format",
+        "HTML",
+        "indent",
+        "minify",
+        "Navindex",
+        "PHP"
+    ],
+    "homepage": "https://github.com/navindex/pico-html-formatter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miklos Karpati",
+            "email": "mk@navindex.com.au",
+            "homepage": "https://www.navindex.com.au",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "docs": "http://picocms.org/navindex/pico-html-formatter",
+        "issues": "https://github.com/navindex/pico-html-formatter/issues",
+        "source": "https://github.com/navindex/pico-html-formatter"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "picocms/pico": "self.version"
+    },
+    "autoload": {
+        "classmap": [
+            "HtmlFormatter.php",
+            "lib/",
+            "plugins/"
+        ]
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
