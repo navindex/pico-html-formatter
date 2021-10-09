@@ -1,7 +1,5 @@
 <?php
 
-namespace Navindex\PicoHtmlFormatter;
-
 use Navindex\HtmlFormatter\Formatter;
 
 /**
@@ -19,11 +17,18 @@ use Navindex\HtmlFormatter\Formatter;
 class PicoHtmlFormatter extends AbstractPicoPlugin
 {
     /**
+     * API version used by this plugin
+     *
+     * @var int
+     */
+    const API_VERSION = 3;
+
+    /**
      * Configuration section key.
      *
      * @var array|null
      */
-    protected $section = 'HtmlFormatter';
+    protected $section = 'PicoHtmlFormatter';
 
     /**
      * Plugin configuration
@@ -31,13 +36,6 @@ class PicoHtmlFormatter extends AbstractPicoPlugin
      * @var array|null
      */
     protected $config;
-
-    /**
-     * API version used by this plugin
-     *
-     * @var int
-     */
-    const API_VERSION = 3;
 
     /**
      * @see AbstractPicoPlugin::$enabled

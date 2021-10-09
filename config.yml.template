@@ -1,7 +1,7 @@
 ##
 # Html formatter
 #
-HtmlFormatter:
+PicoHtmlFormatter:
     action: beautify
     self-closing:
         tag:
