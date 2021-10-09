@@ -1,5 +1,7 @@
 <?php
 
+namespace Navindex\PicoHtmlFormatter;
+
 use Navindex\HtmlFormatter\Formatter;
 
 /**
@@ -14,7 +16,7 @@ use Navindex\HtmlFormatter\Formatter;
  * @license http://opensource.org/licenses/MIT The MIT License
  * @version 0.1.0
  */
-class HtmlFormatter extends AbstractPicoPlugin
+class PicoHtmlFormatter extends AbstractPicoPlugin
 {
     /**
      * Configuration section key.
