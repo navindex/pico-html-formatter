@@ -76,6 +76,7 @@ class PicoHtmlFormatter extends AbstractPicoPlugin
      */
     public function onPageRendered(&$output)
     {
-        $output = (new Formatter($this->config))->beautify($output);
+        $action = $this->action ?? 'beautify';
+        $output = (new Formatter($this->config))->$action($output);
     }
 }

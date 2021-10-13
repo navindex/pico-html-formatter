@@ -13,7 +13,7 @@ PicoHtmlFormatter:
             - embed
             - hr
             - img
-            - input,
+            - input
             - keygen
             - link
             - menuitem
