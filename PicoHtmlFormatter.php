@@ -10,14 +10,17 @@ use Navindex\HtmlFormatter\Formatter;
  * {@see https://github.com/navindex/html-formatter} for a full list of features.
  *
  * @author  Navindex Pty Ltd
+ *
  * @link    https://navindex.com.au
+ *
  * @license http://opensource.org/licenses/MIT The MIT License
+ *
  * @version 0.1.0
  */
 class PicoHtmlFormatter extends AbstractPicoPlugin
 {
     /**
-     * API version used by this plugin
+     * API version used by this plugin.
      *
      * @var int
      */
@@ -31,7 +34,7 @@ class PicoHtmlFormatter extends AbstractPicoPlugin
     protected $section = 'PicoHtmlFormatter';
 
     /**
-     * Plugin configuration
+     * Plugin configuration.
      *
      * @var array|null
      */
@@ -39,6 +42,7 @@ class PicoHtmlFormatter extends AbstractPicoPlugin
 
     /**
      * @see AbstractPicoPlugin::$enabled
+     *
      * @var bool|null
      */
     protected $enabled;
@@ -49,8 +53,9 @@ class PicoHtmlFormatter extends AbstractPicoPlugin
      * @var string
      */
     protected $action = 'beautify';
+
     /**
-     * Triggered after Pico has read its configuration
+     * Triggered after Pico has read its configuration.
      *
      * @see Pico::getConfig()
      * @see Pico::getBaseUrl()
@@ -68,7 +73,7 @@ class PicoHtmlFormatter extends AbstractPicoPlugin
     }
 
     /**
-     * Triggered after Pico has rendered the page
+     * Triggered after Pico has rendered the page.
      *
      * @see DummyPlugin::onPageRendering()
      *
