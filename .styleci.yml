@@ -1,0 +1,11 @@
+preset: laravel
+risky: true
+enabled:
+    - concat_with_spaces
+    - phpdoc_align
+    - logical_operators
+    - no_blank_lines_between_traits
+disabled:
+    - concat_without_spaces
+    - laravel_phpdoc_alignment
+    - not_operator_with_successor_space
